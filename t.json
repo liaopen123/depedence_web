@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "name": "app",
+            "symbolSize": 5,
+            "draggable": "true",
+            "value":"光标移动上来的说明",
+            "category": "moudle",
+            "label": {
+                "normal": {
+                    "show": "True"
+                }
+            }
+        },
+           {
+            "name": "hhz_lib",
+            "symbolSize": 4,
+            "draggable": "true",
+            "value": "光标移动上来的说明",
+            "category": "moudle",
+            "label": {
+                "normal": {
+                    "show": "True"
+                }
+            }
+        },
+           {
+            "name": "base",
+            "symbolSize": 4,
+            "draggable": "false",
+            "value": "光标移动上来的说明",
+            "category": "moudle",
+            "label": {
+                "normal": {
+                    "show": "True"
+                }
+            }
+        },
+        {
+            "name": "com.androidx.viewpager2",
+            "symbolSize": 1,
+            "draggable": "false",
+            "value": "光标移动上来的说明",
+            "category": "moudle",
+            "label": {
+                "normal": {
+                    "show": "True"
+                }
+            }
+        },
+        {
+            "source": "app",
+            "target": "hhz_lib"
+        },
+          {
+            "source": "app",
+            "target": "base"
+        }, {
+            "source": "hhz_lib",
+            "target": "com.androidx.viewpager2"
+        }
+    ]
+}
